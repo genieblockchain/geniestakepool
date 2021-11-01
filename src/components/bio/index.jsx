@@ -55,6 +55,11 @@ export const Bio = () => (
                       LinkedIn
                     </a>
                   )}
+                  {social.stakepool && (
+                    <a href={`https://pool.pm/${social.stakepool}/`}>
+                      <b>🎁StakePool</b>
+                    </a>
+                  )}
                 </p>
               </div>
             </div>
@@ -85,6 +90,7 @@ const bioQuery = graphql`
           facebook
           linkedin
           instagram
+          stakepool
         }
       }
     }

@@ -1,9 +1,9 @@
 module.exports = {
-  title: `Bee starter`,
-  description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  title: `Genie's Block Chain World`,
+  description: `탈중앙화에 빠진 블록체인 이야기`,
+  author: `GENIE`,
+  introduction: `탈중앙화에 빠진 블록체인 탐험가 이야기, For Decentralized World!!`,
+  siteUrl: `https://genieblockchain.netlify.app`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
@@ -11,12 +11,13 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
     instagram: ``, // Your Instagram account
+    stakepool: `a2d7c530964b52d333cc664b1fc5acb697f1e3281787af54b021215e`,
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [`blockchain`, `blog`, `cardano`, `decentralized`, `staking`, `stakepool`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'genieblockchain/geniestakepool', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
