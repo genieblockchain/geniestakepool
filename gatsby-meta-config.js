@@ -11,7 +11,9 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
     instagram: ``, // Your Instagram account
-    stakepool: `a2d7c530964b52d333cc664b1fc5acb697f1e3281787af54b021215e`,
+    stakepool: `a2d7c530964b52d333cc664b1fc5acb697f1e3281787af54b021215e`, // stakepool address.
+    kakaotalk: `gimqK0Pd`, // Open Kakao talk room
+    telegram: `+okbsdv0O3blmZTM1`, // Telegram room
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blockchain`, `blog`, `cardano`, `decentralized`, `staking`, `stakepool`],

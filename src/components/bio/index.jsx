@@ -56,8 +56,18 @@ export const Bio = () => (
                     </a>
                   )}
                   {social.stakepool && (
-                    <a href={`https://pool.pm/${social.stakepool}/`}>
+                    <a href={`https://pool.pm/${social.stakepool}/`} target='_blank'>
                       <b>🎁StakePool</b>
+                    </a>
+                  )}
+                  {social.kakaotalk && (
+                    <a href={`https://open.kakao.com/o/${social.kakaotalk}`} target='_blank'>
+                      <b>💫KakaoTalk</b>
+                    </a>
+                  )}
+                  {social.telegram && (
+                    <a href={`https://t.me/${social.telegram}`} target='_blank'>
+                      <b>💸Telegram</b>
                     </a>
                   )}
                 </p>
@@ -91,6 +101,8 @@ const bioQuery = graphql`
           linkedin
           instagram
           stakepool
+          kakaotalk
+          telegram
         }
       }
     }
